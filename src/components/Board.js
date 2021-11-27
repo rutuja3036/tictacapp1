@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Square from './Square'
-export default class Board extends Component {
+export default class Board extends component {
     renderSuare(i) {
         return<Square value = {this.props.squares[i]}
         onClick={() => this.props.onClick[i]}
